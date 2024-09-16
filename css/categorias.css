@@ -2,34 +2,44 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 5px;
     background-color: #8338EC;
+}
+header h1 a {
+    display: inline-block;
 }
 header ul {
     display: flex;
 }
 header li {
-    list-style-type: none;
     padding: 2em;
+    font-size: 21px;
 }
 header li a {
-    text-decoration: none;
     color: #FFFFFF;
 }
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin: 120px 0px;
 }
 .text {
     width: 600px;
 }
 .text h2 {
     margin-bottom: 30px;
+    font-size: 55px;
 }
 .container {
     display: flex;
@@ -39,9 +49,63 @@ main {
     width: 800px;
 }
 .element {
-    background-image: url(../images/IMG_6634.svg);
     border: 1px solid gray;
     border-radius: 10px;
     width: 270px;
     height: 270px;
+}
+.first {
+    background-image: url(../images/categoria\ 1.png);
+}
+.second {
+    background-image: url(../images/categoria\ 2.png);
+}
+.third {
+    background-image: url(../images/categoria\ 3.png);
+}
+.fourth {
+    background-image: url(../images/categoria\ 4.png);
+}
+.element a {
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+}
+.element p {
+    text-align: center;
+    margin-top: 230px;
+    color: #FFFFFF;
+    font-size: 26px;
+}
+footer {
+    background-color: #8338EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0px;
+}
+footer h1 img {
+    width: 170px;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+footer nav ul li a {
+    color: #FFF;
+    font-size: 21px;
+}
+.socials {
+    margin: 30px 0px;
+}
+.socials ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.copyright p {
+    text-align: center;
+    color: #FFF;
 }
