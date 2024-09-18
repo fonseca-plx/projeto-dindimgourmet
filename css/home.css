@@ -108,7 +108,7 @@ header li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 600px;
     gap: 30px;
 }
 .lancamento {
@@ -117,4 +117,7 @@ header li a {
     border-radius: 10px;
     width: 100px;
     height: 120px;
+}
+figure img {
+    width: 100%;
 }
