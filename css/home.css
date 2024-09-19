@@ -2,11 +2,26 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+h2 {
+    color: #8338EC;
+    font-size: 42px;
+}
 a {
     text-decoration: none;
 }
 li {
     list-style-type: none;
+}
+button {
+    padding: 10px 42px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+address {
+    font-size: 21px;
+    font-style: normal;
 }
 header {
     display: flex;
@@ -52,7 +67,7 @@ header li a {
 .manual-navigation {
     position: absolute;
     width: 100%;
-    margin-top: -40px;
+    margin-top: -60px;
     display: flex;
     justify-content: center;
 }
@@ -88,7 +103,7 @@ header li a {
 .navigation-auto {
     position: absolute;
     width: 100%;
-    margin-top: 760px;
+    margin-top: 740px;
     display: flex;
     justify-content: center;
 }
@@ -107,17 +122,136 @@ header li a {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 600px;
-    gap: 30px;
+    position: relative;
+    bottom: 40px;
+    height: 450px;
+    gap: 90px;
+}
+.container img {
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+}
+.container h3 {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px 0;
 }
 .lancamento {
-    background-color: lightgray;
-    border: 1px solid black;
     border-radius: 10px;
-    width: 100px;
-    height: 120px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
 }
-figure img {
-    width: 100%;
+.bg-lancamento {
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    border-radius: 12px;
+    width: 240px;
+}
+#box-1 {
+    border: 5px solid #FF0059;
+}
+#box-1 .bg-lancamento {
+    background-color: #FF0059;
+}
+#box-2 {
+    border: 5px solid #8338EC;
+}
+#box-2 .bg-lancamento {
+    background-color: #8338EC;
+}
+#box-3 {
+    border: 5px solid #FFBE0B;
+}
+#box-3 .bg-lancamento {
+    background-color: #FFBE0B;
+}
+.fidelidade {
+    background-image: url(../images/bg_fidelidade.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+    height: 480px;
+}
+.fidelidade h2 {
+    background-color: #FFFFFF;
+}
+.fidelidade p {
+    background-color: #FFFFFF;
+    color: #8338EC;
+    display: inline-block;
+    margin: 30px 0;
+    font-size: 26px;
+}
+.fidelidade button {
+    background-color: #FFFFFF;
+    color: #8338EC;
+}
+.fidelidade img {
+    position: absolute;
+    bottom: 0;
+    height: 450px;
+}
+.fidelidade-img {
+    position: relative;
+    /* width: 275px; */
+    height: 480px;
+}
+.fidelidade-txt {
+    text-align: right;
+}
+.endereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    height: 700px;
+}
+.endereco button {
+    background-color: #8338EC;
+    color: #FFFFFF;
+}
+.endereco-txt {
+    width: 600px;
+}
+.localizacao {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    gap: 10px;
+}
+footer {
+    background-color: #8338EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+footer h1 img {
+    width: 170px;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+footer nav ul li a {
+    color: #FFF;
+    font-size: 21px;
+}
+.socials {
+    margin: 30px 0px;
+}
+.socials ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.copyright p {
+    text-align: center;
+    color: #FFF;
 }
