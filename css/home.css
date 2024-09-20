@@ -29,6 +29,10 @@ header {
     justify-content: space-around;
     align-items: center;
     padding-top: 5px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
     background-color: #8338EC;
 }
 header h1 a {
@@ -48,6 +52,7 @@ header li a {
     width: 100%;
     height: 800px;
     overflow: hidden;
+    margin-top: 128px;
 }
 .slides {
     display: flex;
@@ -170,7 +175,7 @@ header li a {
     background-color: #FFBE0B;
 }
 .fidelidade {
-    background-image: url(../images/bg_fidelidade.png);
+    background-image: url(../docs/images/bg_fidelidade.png);
     display: flex;
     justify-content: space-around;
     align-items: center;

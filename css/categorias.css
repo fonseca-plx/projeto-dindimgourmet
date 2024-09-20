@@ -56,16 +56,16 @@ main {
     height: 270px;
 }
 .first {
-    background-image: url(../images/categoria\ 1.png);
+    background-image: url(../docs/images/categoria\ 1.png);
 }
 .second {
-    background-image: url(../images/categoria\ 2.png);
+    background-image: url(../docs/images/categoria\ 2.png);
 }
 .third {
-    background-image: url(../images/categoria\ 3.png);
+    background-image: url(../docs/images/categoria\ 3.png);
 }
 .fourth {
-    background-image: url(../images/categoria\ 4.png);
+    background-image: url(../docs/images/categoria\ 4.png);
 }
 .element a {
     display: inline-block;
