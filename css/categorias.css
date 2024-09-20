@@ -1,6 +1,11 @@
-*{margin: 0; padding: 0;}
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: 'REM', sans-serif;
+}
+h2 {
+    margin-bottom: 30px;
+    font-size: 55px;
 }
 a {
     text-decoration: none;
@@ -36,10 +41,6 @@ main {
 }
 .text {
     width: 600px;
-}
-.text h2 {
-    margin-bottom: 30px;
-    font-size: 55px;
 }
 .container {
     display: flex;
