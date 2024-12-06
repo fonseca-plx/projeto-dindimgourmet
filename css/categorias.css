@@ -78,35 +78,3 @@ main {
     color: #FFFFFF;
     font-size: 26px;
 }
-footer {
-    background-color: #8338EC;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 60px 0px;
-}
-footer h1 img {
-    width: 170px;
-}
-footer nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-footer nav ul li a {
-    color: #FFF;
-    font-size: 21px;
-}
-.socials {
-    margin: 30px 0px;
-}
-.socials ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.copyright p {
-    text-align: center;
-    color: #FFF;
-}

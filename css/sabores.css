@@ -64,6 +64,11 @@ h3 {
     height: 160px;
     gap: 10px;
 }
+.card:hover {
+    border: 1px solid #8338EC;
+    box-shadow: 0px 0px 10px 1px #8338EC;
+    transition: .2s;
+}
 .imagem-sabor {
     background-color: #D9D9D9;
     width: 100px;
